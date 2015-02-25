@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         var number = myTextField.text.toInt()
         
         if number != nil {
-            if number == 1 {
+            if number == 1 || number == 0 {
                 isPrime = false
             } else if number != 2 {
                 for var i=2; i<number; i++ {
